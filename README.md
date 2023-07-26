@@ -8,4 +8,8 @@ Nesse app foi praticado o consumo de API com arquitetura MVC e utilização do P
 
 **Criado em base de tela do Pixel 2 API 31 emulado pelo Android Studio.
 
-**** OBS: Desmarcar a opção "Uncaught Exception" do VS Code.
+**** OBS: Desmarcar a opção "Uncaught Exception" do VS Code caso não carregue as imagens da lista e trave a aplicação.
+    Esse erro está relacionado com a conexão a internet do emulador/celular, impossibilitanto com que seja feito a requisição
+    e a imagem carregue imediatamente.
+erro: SocketException(SocketException: Failed host lookup: 'assets.pokemon.com' (OS Error: No address associated with hostname, errno = 7))
+
